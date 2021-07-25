@@ -131,4 +131,13 @@ public class FileUtils {
 		output.close();
 	}
 
+	public static String getGamerzillaSavePath()
+	{
+		return Gdx.files.getExternalStoragePath() + defaultPath + "gamerzilla/";
+	}
+
+	public static String getGamerzillaDataPath()
+	{
+		return Gdx.files.getLocalStoragePath() + "gamerzilla/";
+	}
 }

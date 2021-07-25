@@ -33,6 +33,7 @@ import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
 import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.FileUtils;
+import com.identicalsoftware.javalibgamerzilla.Gamerzilla;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -53,76 +54,76 @@ public class Badges {
 		FOUND_RATMOGRIFY,
 
 		//bronze
-		UNLOCK_MAGE                 ( 1 ),
-		UNLOCK_ROGUE                ( 2 ),
-		UNLOCK_HUNTRESS             ( 3 ),
-		MONSTERS_SLAIN_1            ( 4 ),
-		MONSTERS_SLAIN_2            ( 5 ),
-		GOLD_COLLECTED_1            ( 6 ),
-		GOLD_COLLECTED_2            ( 7 ),
-		ITEM_LEVEL_1                ( 8 ),
-		LEVEL_REACHED_1             ( 9 ),
-		STRENGTH_ATTAINED_1         ( 10 ),
-		FOOD_EATEN_1                ( 11 ),
-		POTIONS_COOKED_1            ( 12 ),
-		BOSS_SLAIN_1                ( 13 ),
-		DEATH_FROM_FIRE             ( 14 ),
-		DEATH_FROM_POISON           ( 15 ),
-		DEATH_FROM_GAS              ( 16 ),
-		DEATH_FROM_HUNGER           ( 17 ),
-		DEATH_FROM_FALLING          ( 18 ),
+		UNLOCK_MAGE                 ( 1, "Mage Unlocked" ),
+		UNLOCK_ROGUE                ( 2, "Rogue Unlocked" ),
+		UNLOCK_HUNTRESS             ( 3, "Huntress Unlocked" ),
+		MONSTERS_SLAIN_1            ( 4, "Basic Slayer" ),
+		MONSTERS_SLAIN_2            ( 5, "Expert Slayer" ),
+		GOLD_COLLECTED_1            ( 6, "Some Gold" ),
+		GOLD_COLLECTED_2            ( 7, "More Gold" ),
+		ITEM_LEVEL_1                ( 8, "Item (Level 3) Acquired" ),
+		LEVEL_REACHED_1             ( 9, "Level 6" ),
+		STRENGTH_ATTAINED_1         ( 10, "Strength 13 Attained" ),
+		FOOD_EATEN_1                ( 11, "Breakfast" ),
+		POTIONS_COOKED_1            ( 12, "3 Potions Cooked" ),
+		BOSS_SLAIN_1                ( 13, "First Boss Slain" ),
+		DEATH_FROM_FIRE             ( 14, "Death from Fire" ),
+		DEATH_FROM_POISON           ( 15, "Death from Poison" ),
+		DEATH_FROM_GAS              ( 16, "Death from Toxic Gas" ),
+		DEATH_FROM_HUNGER           ( 17, "Death from Hunger" ),
+		DEATH_FROM_FALLING          ( 18, "Death from Falling" ),
 
 		//silver
-		NO_MONSTERS_SLAIN           ( 32 ),
-		GRIM_WEAPON                 ( 33 ),
-		MONSTERS_SLAIN_3            ( 34 ),
-		MONSTERS_SLAIN_4            ( 35 ),
-		GOLD_COLLECTED_3            ( 36 ),
-		GOLD_COLLECTED_4            ( 37 ),
-		ITEM_LEVEL_2                ( 38 ),
-		ITEM_LEVEL_3                ( 39 ),
-		LEVEL_REACHED_2             ( 40 ),
-		LEVEL_REACHED_3             ( 41 ),
-		STRENGTH_ATTAINED_2         ( 42 ),
-		STRENGTH_ATTAINED_3         ( 43 ),
-		FOOD_EATEN_2                ( 44 ),
-		FOOD_EATEN_3                ( 45 ),
-		POTIONS_COOKED_2            ( 46 ),
-		POTIONS_COOKED_3            ( 47 ),
-		BOSS_SLAIN_2                ( 48 ),
-		BOSS_SLAIN_3                ( 49 ),
-		ALL_POTIONS_IDENTIFIED      ( 50 ),
-		ALL_SCROLLS_IDENTIFIED      ( 51 ),
-		DEATH_FROM_GLYPH            ( 52 ),
+		NO_MONSTERS_SLAIN           ( 32, "Peace" ),
+		GRIM_WEAPON                 ( 33, "Grim Death" ),
+		MONSTERS_SLAIN_3            ( 34, "Champion Slayer" ),
+		MONSTERS_SLAIN_4            ( 35, "Master Slayer" ),
+		GOLD_COLLECTED_3            ( 36, "Lots of Gold" ),
+		GOLD_COLLECTED_4            ( 37, "All the Gold" ),
+		ITEM_LEVEL_2                ( 38, "Item (Level 6) Acquired" ),
+		ITEM_LEVEL_3                ( 39, "Item (Level 9) Acquired" ),
+		LEVEL_REACHED_2             ( 40, "Level 12" ),
+		LEVEL_REACHED_3             ( 41, "Level 18" ),
+		STRENGTH_ATTAINED_2         ( 42, "Strength 15 Attained" ),
+		STRENGTH_ATTAINED_3         ( 43, "Strength 17 Attained" ),
+		FOOD_EATEN_2                ( 44, "Lunch" ),
+		FOOD_EATEN_3                ( 45, "Dinner" ),
+		POTIONS_COOKED_2            ( 46, "6 Potions Cooked" ),
+		POTIONS_COOKED_3            ( 47, "9 Potions Cooked" ),
+		BOSS_SLAIN_2                ( 48, "Second Boss Slain" ),
+		BOSS_SLAIN_3                ( 49, "Third Boss Slain" ),
+		ALL_POTIONS_IDENTIFIED      ( 50, "Potion Master" ),
+		ALL_SCROLLS_IDENTIFIED      ( 51, "Scroll Lorekeeper" ),
+		DEATH_FROM_GLYPH            ( 52, "Deferred Death" ),
 		BOSS_SLAIN_1_WARRIOR,
 		BOSS_SLAIN_1_MAGE,
 		BOSS_SLAIN_1_ROGUE,
 		BOSS_SLAIN_1_HUNTRESS,
-		BOSS_SLAIN_1_ALL_CLASSES    ( 53, true ),
-		GAMES_PLAYED_1              ( 54, true ),
+		BOSS_SLAIN_1_ALL_CLASSES    ( 53, "First Boss Slain Again", true ),
+		GAMES_PLAYED_1              ( 54, "Casual Gamer", true ),
 
 		//gold
-		PIRANHAS                    ( 64 ),
+		PIRANHAS                    ( 64, "Piranhas" ),
 		//these names are a bit outdated, but it doesn't really matter.
 		BAG_BOUGHT_SEED_POUCH,
 		BAG_BOUGHT_SCROLL_HOLDER,
 		BAG_BOUGHT_POTION_BANDOLIER,
 		BAG_BOUGHT_WAND_HOLSTER,
-		ALL_BAGS_BOUGHT             ( 65 ),
-		MASTERY_COMBO               ( 66 ),
-		ITEM_LEVEL_4                ( 67 ),
-		LEVEL_REACHED_4             ( 68 ),
-		STRENGTH_ATTAINED_4         ( 69 ),
-		FOOD_EATEN_4                ( 70 ),
-		POTIONS_COOKED_4            ( 71 ),
-		BOSS_SLAIN_4                ( 72 ),
-		ALL_WEAPONS_IDENTIFIED      ( 73 ),
-		ALL_ARMOR_IDENTIFIED        ( 74 ),
-		ALL_WANDS_IDENTIFIED        ( 75 ),
-		ALL_RINGS_IDENTIFIED        ( 76 ),
-		ALL_ARTIFACTS_IDENTIFIED    ( 77 ),
-		VICTORY                     ( 78 ),
-		YASD                        ( 79, true ),
+		ALL_BAGS_BOUGHT             ( 65, "Bagger" ),
+		MASTERY_COMBO               ( 66, "Combo Master" ),
+		ITEM_LEVEL_4                ( 67, "Item (Level 12) Acquired" ),
+		LEVEL_REACHED_4             ( 68, "Level 24" ),
+		STRENGTH_ATTAINED_4         ( 69, "Strength 19 Attained" ),
+		FOOD_EATEN_4                ( 70, "Dessert" ),
+		POTIONS_COOKED_4            ( 71, "12 Potions Cooked" ),
+		BOSS_SLAIN_4                ( 72, "Fourth Boss Slain" ),
+		ALL_WEAPONS_IDENTIFIED      ( 73, "Weaponsmith" ),
+		ALL_ARMOR_IDENTIFIED        ( 74, "Armorsmith" ),
+		ALL_WANDS_IDENTIFIED        ( 75, "Wandmaker" ),
+		ALL_RINGS_IDENTIFIED        ( 76, "Ring Expert" ),
+		ALL_ARTIFACTS_IDENTIFIED    ( 77, "Archeologist" ),
+		VICTORY                     ( 78, "Victory" ),
+		YASD                        ( 79, "YASD", true ),
 		BOSS_SLAIN_3_GLADIATOR,
 		BOSS_SLAIN_3_BERSERKER,
 		BOSS_SLAIN_3_WARLOCK,
@@ -131,36 +132,39 @@ public class Badges {
 		BOSS_SLAIN_3_ASSASSIN,
 		BOSS_SLAIN_3_SNIPER,
 		BOSS_SLAIN_3_WARDEN,
-		BOSS_SLAIN_3_ALL_SUBCLASSES ( 80, true ),
-		GAMES_PLAYED_2              ( 81, true ),
+		BOSS_SLAIN_3_ALL_SUBCLASSES ( 80, "Third Boss Slain Again Again", true ),
+		GAMES_PLAYED_2              ( 81, "Novice Gamer", true ),
 
 		//platinum
-		HAPPY_END                   ( 96 ),
-		ALL_ITEMS_IDENTIFIED        ( 97, true ),
+		HAPPY_END                   ( 96,"Happy End" ),
+		ALL_ITEMS_IDENTIFIED        ( 97, "Keeper of Secrets", true ),
 		VICTORY_WARRIOR,
 		VICTORY_MAGE,
 		VICTORY_ROGUE,
 		VICTORY_HUNTRESS,
-		VICTORY_ALL_CLASSES         ( 98, true ),
-		GAMES_PLAYED_3              ( 99, true ),
-		CHAMPION_1                  ( 100 ),
+		VICTORY_ALL_CLASSES         ( 98, "Victory Again Again Again", true ),
+		GAMES_PLAYED_3              ( 99, "Hardcore Gamer", true ),
+		CHAMPION_1                  ( 100, "Champion" ),
 
 		//diamond
-		GAMES_PLAYED_4              ( 112, true ),
-		CHAMPION_2                  ( 113 ),
-		CHAMPION_3                  ( 114 );
+		GAMES_PLAYED_4              ( 112, "Never Sleep Gamer", true ),
+		CHAMPION_2                  ( 113, "Champion II" ),
+		CHAMPION_3                  ( 114, "Champion III" );
 
 		public boolean meta;
 
 		public int image;
+
+		public String gamerzillaName;
 		
-		Badge( int image ) {
-			this( image, false );
+		Badge( int image, String gamerzillaName ) {
+			this( image, gamerzillaName, false );
 		}
 		
-		Badge( int image, boolean meta ) {
+		Badge( int image, String gamerzillaName, boolean meta ) {
 			this.image = image;
 			this.meta = meta;
+			this.gamerzillaName = gamerzillaName;
 		}
 
 		public String desc(){
@@ -168,12 +172,14 @@ public class Badges {
 		}
 		
 		Badge() {
-			this( -1 );
+			this( -1, "" );
 		}
 	}
 	
 	private static HashSet<Badge> global;
 	private static HashSet<Badge> local = new HashSet<>();
+	private static Gamerzilla gamerzilla;
+	private static int gameid = -1;
 	
 	private static boolean saveNeeded = false;
 
@@ -247,6 +253,9 @@ public class Badges {
 			} catch (IOException e) {
 				global = new HashSet<>();
 			}
+			gamerzilla = new Gamerzilla();
+			gamerzilla.Start(false, FileUtils.getGamerzillaSavePath());
+			gameid = gamerzilla.SetGameFromFile(FileUtils.getGamerzillaDataPath() + "shatteredpixeldungeon.game", FileUtils.getGamerzillaDataPath());
 		}
 	}
 
@@ -604,10 +613,7 @@ public class Badges {
 					break;
 				}
 				local.add( badge );
-				if (!global.contains( badge )) {
-					global.add( badge );
-					saveNeeded = true;
-				}
+				addGlobal(badge);
 				
 				if (global.contains( Badge.BOSS_SLAIN_1_WARRIOR ) &&
 					global.contains( Badge.BOSS_SLAIN_1_MAGE ) &&
@@ -617,8 +623,6 @@ public class Badges {
 					badge = Badge.BOSS_SLAIN_1_ALL_CLASSES;
 					if (!global.contains( badge )) {
 						displayBadge( badge );
-						global.add( badge );
-						saveNeeded = true;
 					}
 				}
 			} else
@@ -652,10 +656,7 @@ public class Badges {
 					return;
 				}
 				local.add( badge );
-				if (!global.contains( badge )) {
-					global.add( badge );
-					saveNeeded = true;
-				}
+				addGlobal(badge);
 				
 				if (global.contains( Badge.BOSS_SLAIN_3_GLADIATOR ) &&
 					global.contains( Badge.BOSS_SLAIN_3_BERSERKER ) &&
@@ -669,8 +670,6 @@ public class Badges {
 					badge = Badge.BOSS_SLAIN_3_ALL_SUBCLASSES;
 					if (!global.contains( badge )) {
 						displayBadge( badge );
-						global.add( badge );
-						saveNeeded = true;
 					}
 				}
 			}
@@ -695,17 +694,11 @@ public class Badges {
 			break;
 		}
 		
-		if (!global.contains( badge )) {
-			global.add( badge );
-			saveNeeded = true;
-		}
+		addGlobal(badge);
 	}
 
 	public static void validateRatmogrify(){
-		if (!global.contains( Badge.FOUND_RATMOGRIFY )) {
-			global.add( Badge.FOUND_RATMOGRIFY );
-			saveNeeded = true;
-		}
+		addGlobal(Badge.FOUND_RATMOGRIFY);
 	}
 	
 	public static void validateMageUnlock(){
@@ -754,10 +747,7 @@ public class Badges {
 			break;
 		}
 		local.add( badge );
-		if (!global.contains( badge )) {
-			global.add( badge );
-			saveNeeded = true;
-		}
+		addGlobal(badge);
 		
 		if (global.contains( Badge.VICTORY_WARRIOR ) &&
 			global.contains( Badge.VICTORY_MAGE ) &&
@@ -821,17 +811,11 @@ public class Badges {
 			badge = Badge.CHAMPION_1;
 		}
 		if (challenges >= 3){
-			if (!global.contains(badge)){
-				global.add(badge);
-				saveNeeded = true;
-			}
+			addGlobal(badge);
 			badge = Badge.CHAMPION_2;
 		}
 		if (challenges >= 6){
-			if (!global.contains(badge)){
-				global.add(badge);
-				saveNeeded = true;
-			}
+			addGlobal(badge);
 			badge = Badge.CHAMPION_3;
 		}
 		local.add(badge);
@@ -844,16 +828,13 @@ public class Badges {
 			return;
 		}
 		
-		if (global.contains( badge )) {
+		if (!addGlobal(badge)) {
 			
 			if (!badge.meta) {
 				GLog.h( Messages.get(Badges.class, "endorsed", badge.desc()) );
 			}
 			
 		} else {
-			
-			global.add( badge );
-			saveNeeded = true;
 			
 			if (badge.meta) {
 				GLog.h( Messages.get(Badges.class, "new_super", badge.desc()) );
@@ -879,11 +860,15 @@ public class Badges {
 		saveNeeded = true;
 	}
 	
-	public static void addGlobal( Badge badge ){
-		if (!global.contains(badge)){
+	public static boolean addGlobal( Badge badge ){
+		boolean added = !global.contains(badge);
+		if (added){
 			global.add( badge );
 			saveNeeded = true;
+			if (!badge.gamerzillaName.isEmpty())
+				gamerzilla.SetTrophy(gameid, badge.gamerzillaName);
 		}
+		return added;
 	}
 
 	public static List<Badge> filterReplacedBadges( boolean global ) {

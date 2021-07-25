@@ -1,0 +1,477 @@
+{
+	"shortname": "shatteredpixeldungeon",
+	"name": "Shattered Pixel Dungeon",
+	"image": "shatteredpixeldungeon.png",
+	"version": "1",
+	"trophy": [
+		{
+			"trophy_name": "Mage Unlocked",
+			"trophy_desc": "Unlocked the Mage",
+			"max_progress": "0",
+			"trueimage": "unlock_mage1.png",
+			"falseimage": "unlock_mage0.png"
+		},
+		{
+			"trophy_name": "Rogue Unlocked",
+			"trophy_desc": "Unlocked the Rogue",
+			"max_progress": "0",
+			"trueimage": "unlock_rogue1.png",
+			"falseimage": "unlock_rogue0.png"
+		},
+		{
+			"trophy_name": "Huntress Unlocked",
+			"trophy_desc": "Unlocked the Huntress",
+			"max_progress": "0",
+			"trueimage": "unlock_huntress1.png",
+			"falseimage": "unlock_huntress0.png"
+		},
+		{
+			"trophy_name": "Basic Slayer",
+			"trophy_desc": "10 enemies slain",
+			"max_progress": "0",
+			"trueimage": "monsters_slain1_1.png",
+			"falseimage": "monsters_slain1_0.png"
+		},
+		{
+			"trophy_name": "Expert Slayer",
+			"trophy_desc": "50 enemies slain",
+			"max_progress": "0",
+			"trueimage": "monsters_slain2_1.png",
+			"falseimage": "monsters_slain2_0.png"
+		},
+		{
+			"trophy_name": "Some Gold",
+			"trophy_desc": "100 gold collected",
+			"max_progress": "0",
+			"trueimage": "gold_collected1_1.png",
+			"falseimage": "gold_collected1_0.png"
+		},
+		{
+			"trophy_name": "More Gold",
+			"trophy_desc": "500 gold collected",
+			"max_progress": "0",
+			"trueimage": "gold_collected2_1.png",
+			"falseimage": "gold_collected2_0.png"
+		},
+		{
+			"trophy_name": "Item (Level 3) Acquired",
+			"trophy_desc": "Item of level 3 acquired",
+			"max_progress": "0",
+			"trueimage": "item_level1_1.png",
+			"falseimage": "item_level1_0.png"
+		},
+		{
+			"trophy_name": "Level 6",
+			"trophy_desc": "Level 6 reached",
+			"max_progress": "0",
+			"trueimage": "level_reached1_1.png",
+			"falseimage": "level_reached1_0.png"
+		},
+		{
+			"trophy_name": "Strength 13 Attained",
+			"trophy_desc": "13 points of Strength attained",
+			"max_progress": "0",
+			"trueimage": "strength_attained1_1.png",
+			"falseimage": "strength_attained1_0.png"
+		},
+		{
+			"trophy_name": "Breakfast",
+			"trophy_desc": "10 pieces of food eaten",
+			"max_progress": "0",
+			"trueimage": "food_eaten1_1.png",
+			"falseimage": "food_eaten1_0.png"
+		},
+		{
+			"trophy_name": "3 Potions Cooked",
+			"trophy_desc": "3 potions cooked",
+			"max_progress": "0",
+			"trueimage": "potions_cooked1_1.png",
+			"falseimage": "potions_cooked1_0.png"
+		},
+		{
+			"trophy_name": "First Boss Slain",
+			"trophy_desc": "1st boss slain",
+			"max_progress": "0",
+			"trueimage": "boss_slain1_1.png",
+			"falseimage": "boss_slain1_0.png"
+		},
+		{
+			"trophy_name": "Death from Fire",
+			"trophy_desc": "Death from fire",
+			"max_progress": "0",
+			"trueimage": "death_from_fire1.png",
+			"falseimage": "death_from_fire0.png"
+		},
+		{
+			"trophy_name": "Death from Poison",
+			"trophy_desc": "Death from poison",
+			"max_progress": "0",
+			"trueimage": "death_from_poison1.png",
+			"falseimage": "death_from_poison0.png"
+		},
+		{
+			"trophy_name": "Death from Toxic Gas",
+			"trophy_desc": "Death from toxic gas",
+			"max_progress": "0",
+			"trueimage": "death_from_gas1.png",
+			"falseimage": "death_from_gas0.png"
+		},
+		{
+			"trophy_name": "Death from Hunger",
+			"trophy_desc": "Death from hunger",
+			"max_progress": "0",
+			"trueimage": "death_from_hunger1.png",
+			"falseimage": "death_from_hunger0.png"
+		},
+		{
+			"trophy_name": "Death from Falling",
+			"trophy_desc": "Death from falling down",
+			"max_progress": "0",
+			"trueimage": "death_from_falling1.png",
+			"falseimage": "death_from_falling0.png"
+		},
+		{
+			"trophy_name": "Peace",
+			"trophy_desc": "Level completed without killing any monsters",
+			"max_progress": "0",
+			"trueimage": "no_monsters_slain1.png",
+			"falseimage": "no_monsters_slain0.png"
+		},
+		{
+			"trophy_name": "Grim Death",
+			"trophy_desc": "Monster killed by a Grim weapon",
+			"max_progress": "0",
+			"trueimage": "grim_weapon1.png",
+			"falseimage": "grim_weapon0.png"
+		},
+		{
+			"trophy_name": "Champion Slayer",
+			"trophy_desc": "150 enemies slain",
+			"max_progress": "0",
+			"trueimage": "monsters_slain3_1.png",
+			"falseimage": "monsters_slain3_0.png"
+		},
+		{
+			"trophy_name": "Master Slayer",
+			"trophy_desc": "250 enemies slain",
+			"max_progress": "0",
+			"trueimage": "monsters_slain4_1.png",
+			"falseimage": "monsters_slain4_0.png"
+		},
+		{
+			"trophy_name": "Lots of Gold",
+			"trophy_desc": "2500 gold collected",
+			"max_progress": "0",
+			"trueimage": "gold_collected3_1.png",
+			"falseimage": "gold_collected3_0.png"
+		},
+		{
+			"trophy_name": "All the Gold",
+			"trophy_desc": "7500 gold collected",
+			"max_progress": "0",
+			"trueimage": "gold_collected4_1.png",
+			"falseimage": "gold_collected4_0.png"
+		},
+		{
+			"trophy_name": "Item (Level 6) Acquired",
+			"trophy_desc": "Item of level 6 acquired",
+			"max_progress": "0",
+			"trueimage": "item_level2_1.png",
+			"falseimage": "item_level2_0.png"
+		},
+		{
+			"trophy_name": "Item (Level 9) Acquired",
+			"trophy_desc": "Item of level 9 acquired",
+			"max_progress": "0",
+			"trueimage": "item_level3_1.png",
+			"falseimage": "item_level3_0.png"
+		},
+		{
+			"trophy_name": "Level 12",
+			"trophy_desc": "Level 12 reached",
+			"max_progress": "0",
+			"trueimage": "level_reached2_1.png",
+			"falseimage": "level_reached2_0.png"
+		},
+		{
+			"trophy_name": "Level 18",
+			"trophy_desc": "Level 18 reached",
+			"max_progress": "0",
+			"trueimage": "level_reached3_1.png",
+			"falseimage": "level_reached3_0.png"
+		},
+		{
+			"trophy_name": "Strength 15 Attained",
+			"trophy_desc": "15 points of Strength attained",
+			"max_progress": "0",
+			"trueimage": "strength_attained2_1.png",
+			"falseimage": "strength_attained2_0.png"
+		},
+		{
+			"trophy_name": "Strength 17 Attained",
+			"trophy_desc": "17 points of Strength attained",
+			"max_progress": "0",
+			"trueimage": "strength_attained3_1.png",
+			"falseimage": "strength_attained3_0.png"
+		},
+		{
+			"trophy_name": "Lunch",
+			"trophy_desc": "20 pieces of food eaten",
+			"max_progress": "0",
+			"trueimage": "food_eaten2_1.png",
+			"falseimage": "food_eaten2_0.png"
+		},
+		{
+			"trophy_name": "Dinner",
+			"trophy_desc": "30 pieces of food eaten",
+			"max_progress": "0",
+			"trueimage": "food_eaten3_1.png",
+			"falseimage": "food_eaten3_0.png"
+		},
+		{
+			"trophy_name": "6 Potions Cooked",
+			"trophy_desc": "6 potions cooked",
+			"max_progress": "0",
+			"trueimage": "potions_cooked2_1.png",
+			"falseimage": "potions_cooked2_0.png"
+		},
+		{
+			"trophy_name": "9 Potions Cooked",
+			"trophy_desc": "9 potions cooked",
+			"max_progress": "0",
+			"trueimage": "potions_cooked3_1.png",
+			"falseimage": "potions_cooked3_0.png"
+		},
+		{
+			"trophy_name": "Second Boss Slain",
+			"trophy_desc": "2nd boss slain",
+			"max_progress": "0",
+			"trueimage": "boss_slain2_1.png",
+			"falseimage": "boss_slain2_0.png"
+		},
+		{
+			"trophy_name": "Third Boss Slain",
+			"trophy_desc": "3rd boss slain",
+			"max_progress": "0",
+			"trueimage": "boss_slain3_1.png",
+			"falseimage": "boss_slain3_0.png"
+		},
+		{
+			"trophy_name": "Potion Master",
+			"trophy_desc": "All potions identified",
+			"max_progress": "0",
+			"trueimage": "all_potions_identified1.png",
+			"falseimage": "all_potions_identified0.png"
+		},
+		{
+			"trophy_name": "Scroll Lorekeeper",
+			"trophy_desc": "All scrolls identified",
+			"max_progress": "0",
+			"trueimage": "all_scrolls_identified1.png",
+			"falseimage": "all_scrolls_identified0.png"
+		},
+		{
+			"trophy_name": "Deferred Death",
+			"trophy_desc": "Death from deferred damage",
+			"max_progress": "0",
+			"trueimage": "death_from_glyph1.png",
+			"falseimage": "death_from_glyph0.png"
+		},
+		{
+			"trophy_name": "First Boss Slain Again",
+			"trophy_desc": "1st boss slain by Warrior, Mage, Rogue & Huntress",
+			"max_progress": "0",
+			"trueimage": "boss_slain1_all_classes1.png",
+			"falseimage": "boss_slain1_all_classes0.png"
+		},
+		{
+			"trophy_name": "Casual Gamer",
+			"trophy_desc": "10 games played",
+			"max_progress": "0",
+			"trueimage": "games_played1_1.png",
+			"falseimage": "games_played1_0.png"
+		},
+		{
+			"trophy_name": "Piranhas",
+			"trophy_desc": "6 piranhas killed",
+			"max_progress": "0",
+			"trueimage": "piranhas1.png",
+			"falseimage": "piranhas0.png"
+		},
+		{
+			"trophy_name": "Bagger",
+			"trophy_desc": "All bags bought",
+			"max_progress": "0",
+			"trueimage": "all_bags_bought1.png",
+			"falseimage": "all_bags_bought0.png"
+		},
+		{
+			"trophy_name": "Combo Master",
+			"trophy_desc": "10-hit combo",
+			"max_progress": "0",
+			"trueimage": "mastery_combo1.png",
+			"falseimage": "mastery_combo0.png"
+		},
+		{
+			"trophy_name": "Item (Level 12) Acquired",
+			"trophy_desc": "Item of level 12 acquired",
+			"max_progress": "0",
+			"trueimage": "item_level4_1.png",
+			"falseimage": "item_level4_0.png"
+		},
+		{
+			"trophy_name": "Level 24",
+			"trophy_desc": "Level 24 reached",
+			"max_progress": "0",
+			"trueimage": "level_reached4_1.png",
+			"falseimage": "level_reached4_0.png"
+		},
+		{
+			"trophy_name": "Strength 19 Attained",
+			"trophy_desc": "19 points of Strength attained",
+			"max_progress": "0",
+			"trueimage": "strength_attained4_1.png",
+			"falseimage": "strength_attained4_0.png"
+		},
+		{
+			"trophy_name": "Dessert",
+			"trophy_desc": "40 pieces of food eaten",
+			"max_progress": "0",
+			"trueimage": "food_eaten4_1.png",
+			"falseimage": "food_eaten4_0.png"
+		},
+		{
+			"trophy_name": "12 Potions Cooked",
+			"trophy_desc": "12 potions cooked",
+			"max_progress": "0",
+			"trueimage": "potions_cooked4_1.png",
+			"falseimage": "potions_cooked4_0.png"
+		},
+		{
+			"trophy_name": "Fourth Boss Slain",
+			"trophy_desc": "4th boss slain",
+			"max_progress": "0",
+			"trueimage": "boss_slain4_1.png",
+			"falseimage": "boss_slain4_0.png"
+		},
+		{
+			"trophy_name": "Weaponsmith",
+			"trophy_desc": "All weapons identified",
+			"max_progress": "0",
+			"trueimage": "all_weapons_identified1.png",
+			"falseimage": "all_weapons_identified0.png"
+		},
+		{
+			"trophy_name": "Armorsmith",
+			"trophy_desc": "All armor identified",
+			"max_progress": "0",
+			"trueimage": "all_armor_identified1.png",
+			"falseimage": "all_armor_identified0.png"
+		},
+		{
+			"trophy_name": "Wandmaker",
+			"trophy_desc": "All wands identified",
+			"max_progress": "0",
+			"trueimage": "all_wands_identified1.png",
+			"falseimage": "all_wands_identified0.png"
+		},
+		{
+			"trophy_name": "Ring Expert",
+			"trophy_desc": "All rings identified",
+			"max_progress": "0",
+			"trueimage": "all_rings_identified1.png",
+			"falseimage": "all_rings_identified0.png"
+		},
+		{
+			"trophy_name": "Archeologist",
+			"trophy_desc": "All artifacts identified",
+			"max_progress": "0",
+			"trueimage": "all_artifacts_identified1.png",
+			"falseimage": "all_artifacts_identified0.png"
+		},
+		{
+			"trophy_name": "Victory",
+			"trophy_desc": "Amulet of Yendor obtained",
+			"max_progress": "0",
+			"trueimage": "victory1.png",
+			"falseimage": "victory0.png"
+		},
+		{
+			"trophy_name": "YASD",
+			"trophy_desc": "Death from fire, poison, toxic gas, hunger, glyph, and falling",
+			"max_progress": "0",
+			"trueimage": "yasd1.png",
+			"falseimage": "yasd0.png"
+		},
+		{
+			"trophy_name": "Third Boss Slain Again Again",
+			"trophy_desc": "3rd boss slain by Gladiator, Berserker, Warlock, Battlemage, Freerunner, Assassin, Sniper & Warden",
+			"max_progress": "0",
+			"trueimage": "boss_slain3_all_subclasses1.png",
+			"falseimage": "boss_slain3_all_subclasses0.png"
+		},
+		{
+			"trophy_name": "Novice Gamer",
+			"trophy_desc": "50 games played",
+			"max_progress": "0",
+			"trueimage": "games_played2_1.png",
+			"falseimage": "games_played2_0.png"
+		},
+		{
+			"trophy_name": "Happy End",
+			"trophy_desc": "Happy end",
+			"max_progress": "0",
+			"trueimage": "happy_end1.png",
+			"falseimage": "happy_end0.png"
+		},
+		{
+			"trophy_name": "Keeper of Secrets",
+			"trophy_desc": "All items identified",
+			"max_progress": "0",
+			"trueimage": "all_items_identified1.png",
+			"falseimage": "all_items_identified0.png"
+		},
+		{
+			"trophy_name": "Victory Again Again Again",
+			"trophy_desc": "Amulet of Yendor obtained by Warrior, Mage, Rogue & Huntress",
+			"max_progress": "0",
+			"trueimage": "victory_all_classes1.png",
+			"falseimage": "victory_all_classes0.png"
+		},
+		{
+			"trophy_name": "Hardcore Gamer",
+			"trophy_desc": "250 games played",
+			"max_progress": "0",
+			"trueimage": "games_played3_1.png",
+			"falseimage": "games_played3_0.png"
+		},
+		{
+			"trophy_name": "Champion",
+			"trophy_desc": "Won with a Challenge",
+			"max_progress": "0",
+			"trueimage": "champion1_1.png",
+			"falseimage": "champion1_0.png"
+		},
+		{
+			"trophy_name": "Never Sleep Gamer",
+			"trophy_desc": "1000 games played",
+			"max_progress": "0",
+			"trueimage": "games_played4_1.png",
+			"falseimage": "games_played4_0.png"
+		},
+		{
+			"trophy_name": "Champion II",
+			"trophy_desc": "Won with 3 Challenges",
+			"max_progress": "0",
+			"trueimage": "champion2_1.png",
+			"falseimage": "champion2_0.png"
+		},
+		{
+			"trophy_name": "Champion III",
+			"trophy_desc": "Won with 6 Challenges",
+			"max_progress": "0",
+			"trueimage": "champion3_1.png",
+			"falseimage": "champion3_0.png"
+		}
+	]
+}
